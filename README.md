@@ -4,7 +4,7 @@ https://adventofcode.com/2025 by [Eric Wastl](http://was.tl/)
 
 Solutions using TypeScript with Bun (v1.3.3)
 
-💫️🌑🌑🌑🌑🌑🌑🌑🌑🌑🌑🌑
+💫️💫️🌑🌑🌑🌑🌑🌑🌑🌑🌑🌑
 
 ## 1. Requirements
 
