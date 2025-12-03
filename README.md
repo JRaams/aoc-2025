@@ -2,11 +2,15 @@
 
 https://adventofcode.com/2025 by [Eric Wastl](http://was.tl/)
 
-Solutions using TypeScript with Bun (v1.3.3)
+Solutions using TypeScript with Bun (v1.3.2)
 
 💫️💫️💫️🌑🌑🌑🌑🌑🌑🌑🌑🌑
 
 ## 1. Requirements
+
+- Nix (the package manager) https://nixos.org/download/
+
+-or-
 
 - Bun https://bun.sh/docs/installation
 

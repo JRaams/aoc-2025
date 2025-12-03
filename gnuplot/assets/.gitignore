@@ -1,0 +1,4 @@
+*.png
+
+# Unignore at day 12
+*.webp

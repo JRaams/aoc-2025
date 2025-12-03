@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+echo "Generating plots..."
+
+gnuplot -c script.gnuplot
+
+gnuplot -c script-log.gnuplot
+
+magick assets/runtimes.png assets/runtimes.webp
+
+magick assets/runtimes-log.png assets/runtimes-log.webp
+
+echo "Saved to $REPO_ROOT/gnuplot/assets/runtimes.webp"
