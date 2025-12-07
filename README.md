@@ -27,3 +27,7 @@ Create the file `input.txt` and paste aoc puzzle input
 Run part A or B
 
 `bun run a.ts`
+
+## 3. Solution runtimes
+
+![runtimes](./gnuplot/assets/runtimes.webp)

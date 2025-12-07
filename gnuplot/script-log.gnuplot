@@ -16,5 +16,5 @@ set datafile separator ","
                # xtic(1) -> use first column as x-axis column labels
 plot "runtimes.csv" using 2:xtic(1) title "Part A" linecolor "#009900", \
      "runtimes.csv" using 3 title "Part B" linecolor "#353562", \
-     "runtimes.csv" using 0:2:2 with labels offset -3,0.5 title "", \
-     "runtimes.csv" using 0:3:3 with labels offset 3,0.5 title ""
+     "runtimes.csv" using 0:2:2 with labels offset -2,0.5 title "", \
+     "runtimes.csv" using 0:3:3 with labels offset 2,0.5 title ""
