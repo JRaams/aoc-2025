@@ -14,9 +14,9 @@ for (let i = 0; i < operations.length; i++) {
   const op = operations[i];
 
   if (op === "*") {
-    grandTotal += digits.reduce((product, d) => product * d[i], 1);
+    grandTotal += digits.reduce((product, n) => product * n[i], 1);
   } else if (op === "+") {
-    grandTotal += digits.reduce((sum, d) => sum + d[i], 0);
+    grandTotal += digits.reduce((sum, n) => sum + n[i], 0);
   }
 }
 

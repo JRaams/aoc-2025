@@ -32,9 +32,9 @@ for (let i = 0; i < operations.length; i++) {
   const op = operations[i];
 
   if (op === "*") {
-    grandTotal += problems[i].reduce((a, b) => a * b, 1);
+    grandTotal += problems[i].reduce((product, n) => product * n, 1);
   } else if (op === "+") {
-    grandTotal += problems[i].reduce((a, b) => a + b, 0);
+    grandTotal += problems[i].reduce((sum, n) => sum + n, 0);
   }
 }
 
