@@ -12,7 +12,7 @@ export async function parse() {
 
   const pairsToConnect = new Heap<BoxPair>((a, b) => a[2] - b[2], []);
 
-  for (let a = 0; a < boxes.length; a++) {
+  for (let a = 0; a < boxes.length - 1; a++) {
     const [x1, y1, z1] = boxes[a];
 
     for (let b = a + 1; b < boxes.length; b++) {

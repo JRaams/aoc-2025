@@ -7,8 +7,6 @@ const uf = new UnionFind(boxes.length);
 while (pairsToConnect.size() > 0) {
   const [a, b, _] = pairsToConnect.pop()!;
 
-  if (uf.findCircuit(a) === uf.findCircuit(b)) continue;
-
   const numConnected = uf.connect(a, b);
 
   if (numConnected === boxes.length) {
